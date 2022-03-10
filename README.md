@@ -102,22 +102,13 @@ $ yarn dev
 
 <div align= "center"><img src="client/assets/profile-page.png" width="600" height="300"/><div>
 
-####
-
-<img src=assets/5.png width=550 height=260></img>
-
-#### We got the following accuracy/loss training curve plot(for less no.of attempts)
-
-#### We will get more accuracy if we try more no.of epochs(attempts)
-
-![](assets/6.png)
-
+----
 ## :clap: And it's done!
 
 Feel free to mail me for any doubts/query
 :email: chagantivenkataramireddy1@gmail.com
 
----
+----
 
 ## :raising_hand: Citation
 
@@ -130,12 +121,13 @@ Follow this format:
 - Title or description of document.
 - URL.
 
+----
+
 ## :beginner: Future Goals
 
-1. Integrate This Project with Voice System.
-2. Creating Android and IOS application of Face-Mask-Detector
-3. Improving the training of model for low end camera.
-4. Adding the Email Sending feature to Face-Mask-Detector.
+1. Integrate This Project with Chat Verification.
+2. Creating Android and IOS version of MetaMask Authentication.
+3. Improving the responsiveness.
 
 ## :heart: Owner
 
@@ -143,4 +135,4 @@ Made with :heart:&nbsp; by [Chaganti Reddy](https://github.com/Chaganti-Reddy/)
 
 ## :eyes: License
 
-MIT © [Chaganti Reddy](https://github.com/Chaganti-Reddy/Face-Mask-Detector/blob/main/LICENSE)
+MIT © [Chaganti Reddy](https://github.com/Chaganti-Reddy/twitter3.0/blob/master/LICENSE)
