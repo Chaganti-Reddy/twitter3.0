@@ -113,7 +113,7 @@ $ yarn dev
 
 
 ----
-<br>
+
 <div align="left">
 
 ## :clap: And it's done!
