@@ -29,6 +29,8 @@
 - **[MetaMask](https://metamask.io/download/) :**
   •	MetaMask is a browser plugin that serves as an Ethereum wallet.
 
+----
+
 ## 🚀&nbsp; Installation
 
 1. Clone the repo
@@ -85,9 +87,9 @@ $ yarn dev
 
 #### MetaMask Authentication
 
-<div align= "center"><img src="client/assets/login-page.png" width="500" height="300"/>
+<div align= "center"><img src="client/assets/login-page.png" width="600" height="300"/>
 
-<div align= "center"><img src="client/assets/metamask-1.png" width="500" height="300"/>
+<div align= "center"><img src="client/assets/metamask-1.png" width="600" height="300"/>
 
 ####
 
