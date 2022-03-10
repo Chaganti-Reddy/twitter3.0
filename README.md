@@ -140,7 +140,7 @@ Follow this format:
 
 1. Integrate This Project with Chat Verification.
 2. Creating Android and IOS version of MetaMask Authentication.
-3. Improving the responsiveness.
+3. Improving the responsiveness in all types of devices.
 
 ## :heart: Owner
 
