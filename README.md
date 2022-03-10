@@ -91,10 +91,12 @@ $ yarn dev
 <div align= "center"><img src="client/assets/login-page.png" width="600" height="300"/></div>
 
 <div align= "center"><img src="client/assets/metamask-1.png" width="600" height="300"/></div>
+
 ----
 #### Home page
 
 <div align= "center"><img src="client/assets/home-page.png" width="600" height="300"/></div>
+
 ----
 #### Profile Page
 
