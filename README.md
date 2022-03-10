@@ -83,6 +83,7 @@ $ yarn install
 ```
 $ yarn dev
 ```
+----
 ## :key: Results
 
 #### MetaMask Authentication
@@ -90,6 +91,14 @@ $ yarn dev
 <div align= "center"><img src="client/assets/login-page.png" width="600" height="300"/>
 
 <div align= "center"><img src="client/assets/metamask-1.png" width="600" height="300"/>
+----
+#### Home page
+
+<div align= "center"><img src="client/assets/home-page.png" width="600" height="300"/>
+----
+#### Profile Page
+
+<div align= "center"><img src="client/assets/profile-page.png" width="600" height="300"/>
 
 ####
 
