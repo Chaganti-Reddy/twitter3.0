@@ -1,4 +1,4 @@
-<h1 align="center">Face Mask Detection</h1>
+<h1 align="center">Twitter3.0 - New Way To Freedom</h1>
 
 <div align= "center"><img src="client/assets/logo.png" width="250" height="250"/>
   <h3>Twitter 3.0 with Blockchain and Smart Contract Technology</h3>
@@ -16,6 +16,8 @@
 
 - **Authentication using MetaMask:**  We are using MetaMask for Authentication.
 <div align= "center"><img src="client/assets/metamask.png" width="100" height="100"/></div>
+
+- **Decentralized Database :** This Application uses Decentralized server which has better encryption using Blockchain Technology 
 
 ----
 ## :warning: Frameworks and Libraries
@@ -85,24 +87,35 @@ $ yarn dev
 ```
 ----
 ## :key: Results
+<br>
 
 #### MetaMask Authentication
 
 <div align= "center"><img src="client/assets/login-page.png" width="600" height="300"/></div>
 
+
 <div align= "center"><img src="client/assets/metamask-1.png" width="600" height="300"/></div>
 
 ----
+
+<br>
+
 #### Home page
 
 <div align= "center"><img src="client/assets/home-page.png" width="600" height="300"/></div>
 
 ----
+<br>
+
 #### Profile Page
 
 <div align= "center"><img src="client/assets/profile-page.png" width="600" height="300"/><div>
 
+
 ----
+<br>
+<div align="left">
+
 ## :clap: And it's done!
 
 Feel free to mail me for any doubts/query
