@@ -20,104 +20,74 @@
 ----
 ## :warning: Frameworks and Libraries
 
-- **[OpenCV](https://opencv.org/):** Computer vision library used to process images
-- **[OpenCV DNN Face Detector](https://github.com/opencv/opencv/blob/3.4.0/samples/dnn/resnet_ssd_face_python.py):**
-  Caffe-based Single Shot-Multibox Detector (SSD) model used to detect faces
-- **[Tensorflow](https://www.tensorflow.org/) / [Keras](https://keras.io/):** Deep learning framework used to build and train our models
-- **[MobileNet V2](https://arxiv.org/abs/1801.04381):** Lightweight pre-trained model available in Keras Applications;
-  used as a base model for our transfer learning
-- **[Numpy](https://numpy.org/):**
-  Caffe-based Single Shot-Multibox Detector (SSD) model used to detect faces
-
-## :file_folder: Datasets
-
-The dataset used can be downloaded here - [Click to Download](https://github.com/Chaganti-Reddy/Face-Mask-Detector/tree/main/Face-Mask-Detector/dataset)
-
-This dataset consists of **7388** images:
-
-- `face_no_mask`: 3,846 images
-- `face_with_mask`: 3,542 images
-
-Each image is a cropped real-world face image of unfixed sizes.
-
-The images used were real images of faces wearing masks. The images were collected from the following sources:
-
-- **Kaggle datasets** ([See here](https://www.kaggle.com/))
-- **RMFD dataset** ([See here](https://github.com/X-zhangyang/Real-World-Masked-Face-Dataset))
-
-```
-These are some of the images of datasets.
-```
-
-|    ![](/assets/2.png)     |
-| :-----------------------: |
-| _Datasets with Face Mask_ |
-
-|      ![](/assets/3.png)      |
-| :--------------------------: |
-| _Datasets without Face Mask_ |
-
-### Data Preprocessing
-
-Labeled data of masked faces is hard to come by, which is why we decided to set the overall still limited set of real masked faces that we have collected apart for validation and testing. Artificially generated masks that are used for training are generated as follows:
-
-1. Detect the face in the image
-2. Find the face landmarks, more specifically we need the location of the nose and chin
-3. Apply an image of a mask to the face with the position based on the face landmarks
-
-This strategy is based on the description that you can find in the [prajnasb/observations repository](https://github.com/prajnasb/observations).
-We apply different masks with different shapes and colors to generate training data, which you can find in [dataset/mask-templates](https://github.com/Chaganti-Reddy/Face-Mask-Detector/tree/main/Face-Mask-Detector/dataset/with_mask). Below you can see an example of a mask being artificially applied.
-
-<img src="assets/7.png" width="500">
-
-## :link: Download
-
-The dataset is now available [here](https://drive.google.com/file/d/1QHnwvLpOHpUdhFRc9W3yIPP42iwaeIq8/view?usp=sharing)! (December 28, 2021)
-
-## :key: Prerequisites
-
-All the dependencies and required libraries are included in the file <code>requirements.txt</code> [See here](https://github.com/Chaganti-Reddy/Face-Mask-Detector/blob/main/Face-Mask-Detector/requirements.txt)
+- **[NextJS](https://nextjs.org/) :** Next.js is a JavaScript framework built with react js, webpack, and babel. Next.js helps the developer easily create a static generation (SSG) and server-side rendering (SSR) website.
+  
+- **[Solidity](https://docs.soliditylang.org/en/latest/) :**
+  Solidity is an object-oriented, high-level language for implementing smart contracts. Smart contracts are programs which govern the behaviour of accounts within the Ethereum state.
+- **[Tailwind CSS](https://tailwindcss.com/) :** Tailwind CSS is basically a Utility first CSS framework for building rapid custom UI. It is a highly customizable, low-level CSS framework that gives you all of the building blocks that you need. 
+- **[Vercel](https://vercel.com/) :** Vercel integrate directly with GitHub or GitLab as well. It allows developers to host static websites and web applications that deploy upon every push in branches or merge/pull requests to preview changes live
+- **[MetaMask](https://metamask.io/download/) :**
+  •	MetaMask is a browser plugin that serves as an Ethereum wallet.
 
 ## 🚀&nbsp; Installation
 
 1. Clone the repo
 
 ```
-$ git clone https://github.com/Chaganti-Reddy/Face-Mask-Detector.git
+$ git clone https://github.com/Chaganti-Reddy/twitter3.0.git
 ```
 
-2. Change your directory to the cloned repo
+2. Change your directory to client folder
 
 ```
-$ cd Face-Mask-Detector
+$ cd client
 ```
 
 3. Now, run the following command in your Terminal/Command Prompt to install the libraries required
 
 ```
-$ pip3 install -r requirements.txt
+$ yarn install
+
+```
+2. Change your directory to studio folder
+
+```
+$ cd .. && cd studio
+```
+
+3. Now, run the following command in your Terminal/Command Prompt to install the libraries required
+
+```
+$ yarn install
+
+```
+2. Change your directory to smart-contracts folder
+
+```
+$ cd .. && cd smart-contracts
+```
+
+3. Now, run the following command in your Terminal/Command Prompt to install the libraries required
+
+```
+$ yarn install
 
 ```
 
 ## :bulb: How to Run
 
-1. Open terminal. Go into the cloned project directory and type the following command: (For training purpose only..)
+1. Open terminal. Go into the client directory and type the following command:
 
 ```
-$ python3 Training.py
+$ yarn dev
 ```
-
-- If you want to test directly run this command without above command..
-
-2. To detect face masks in real-time video streams type the following command:
-
-```
-$ python3 Face_Mask_Detect.py
-```
-
 ## :key: Results
 
-#### Our model gave 98% accuracy for Face Mask Detection after training via <code>tensorflow-gpu</code>
+#### MetaMask Authentication
+
+<div align= "center"><img src="client/assets/login-page.png" width="500" height="300"/>
+
+<div align= "center"><img src="client/assets/metamask-1.png" width="500" height="300"/>
 
 ####
 
