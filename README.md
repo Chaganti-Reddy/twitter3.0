@@ -10,9 +10,10 @@
     <a href="https://github.com/Chaganti-Reddy/"><img src="https://img.shields.io/github/followers/Chaganti-Reddy?style=social"/></a>
 </div>
 
+- **Check It Out** [here](https://twitter3-chaganti-reddy.vercel.app/) 
+
 ----
 
-- **Check It Out** [here](https://twitter3-chaganti-reddy.vercel.app/) 
 
 ## :star: Features
 
