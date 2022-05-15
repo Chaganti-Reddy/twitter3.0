@@ -152,3 +152,7 @@ Made with :heart:&nbsp; by [Chaganti Reddy](https://github.com/Chaganti-Reddy/)
 ## :eyes: License
 
 MIT © [Chaganti Reddy](https://github.com/Chaganti-Reddy/twitter3.0/blob/master/LICENSE)
+
+<a href="https://github.com/Chaganti-Reddy/twitter3.0/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Chaganti-Reddy/twitter3.0" />
+</a>
