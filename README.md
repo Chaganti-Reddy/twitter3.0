@@ -147,7 +147,7 @@ Follow this format:
 
 ## :heart: Owner
 
-Made with :heart:&nbsp; by [Chaganti Reddy](https://github.com/Chaganti-Reddy/)
+Made by [Chaganti Reddy](https://github.com/Chaganti-Reddy/)
 
 ## :eyes: License
 
